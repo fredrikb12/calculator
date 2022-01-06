@@ -6,7 +6,7 @@ body {
 
 .container {
     width: 300px;
-    height: 180px;
+    height: 200px;
     background-color: #f1ad75;
     display: flex;
     flex-direction: column;
@@ -28,6 +28,7 @@ body {
 .display > p {
     line-height: 36px;
     height: 36px;
+    font-size: 24px;
     width: 90%;
     flex-direction: row-reverse;
     margin: 0;
@@ -42,7 +43,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
     background-color: #d19768;
     border-radius: 4px;
 }
@@ -68,14 +69,17 @@ body {
     text-align: center;
 }
 
-#clear {
-    background-color: #e45276;
-    color: #4e351e;
-}
-.operator-button {
+.blue-button {
     background-color: #44a4b1;
     color: #FFFFFF;
 }
+
+#clear,
+#backspace {
+    background-color: #e45276;
+    color: #4e351e;
+}
+
 
 
 
